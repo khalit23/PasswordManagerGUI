@@ -45,7 +45,7 @@ def generate_password():
     numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
     symbols = ['!', '#', '$', '%', '&', '(', ')', '*', '+']
 
-    random_int = random.randint(1, 7)
+    random_int = random.randint(7, 10)
 
     new_letters = [random.choice(letters) for n in range(random_int)]
     new_numbers = [random.choice(numbers) for n in range(random_int)]
